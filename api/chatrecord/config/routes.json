@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/chatrecords",
+      "handler": "Chatrecord.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/chatrecords/count",
+      "handler": "Chatrecord.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/chatrecords/:_id",
+      "handler": "Chatrecord.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/chatrecords",
+      "handler": "Chatrecord.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/chatrecords/:_id",
+      "handler": "Chatrecord.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/chatrecords/:_id",
+      "handler": "Chatrecord.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

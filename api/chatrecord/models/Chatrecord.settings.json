@@ -1,0 +1,34 @@
+{
+  "connection": "default",
+  "collectionName": "chatrecord",
+  "info": {
+    "name": "chatrecord",
+    "description": ""
+  },
+  "options": {
+    "timestamps": [
+      "createdAt",
+      "updatedAt"
+    ]
+  },
+  "attributes": {
+    "authorId": {
+      "type": "string"
+    },
+    "senderUid": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    },
+    "parentMeassageId": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "date"
+    }
+  }
+}

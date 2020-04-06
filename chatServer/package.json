@@ -1,0 +1,10 @@
+{
+    "name": "mlm_chat_backend",
+    "version": "0.0.1",
+    "description": "mlm_chat_backend",
+    "dependencies": {
+        "express": "^4.17.1",
+        "mongodb": "^3.3.3",
+        "socket.io": "^2.3.0"
+    }
+}
